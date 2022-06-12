@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #292F33;
+    color: #CCD6DD;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#links{
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #CCD6DD;
+    padding: 10px;
+}
+
+a:hover{
+    color: #55ACEE;
+}
+
+main{
+    display: flex;
+    justify-content: center; 
+    line-height: 2em;
+}
+
+fieldset{
+    padding: 20px;
+    border: 3px solid #55ACEE;
+    width: 100%;
+}
+
+#Gender{
+    color: #CCD6DD;
+    border: 1px solid #55ACEE;
+    border-radius: 0.3em;
+    width: 300px;
+    height: 25px;
+    background-color: #292F33;
+}
+
+input{
+    color: #CCD6DD;
+    border: 1px solid #55ACEE;
+    border-radius: 0.3em;
+    width: 300px;
+    height: 25px;
+    background-color: #292F33;
+}
+
+textarea{
+    border: 1px solid #55ACEE;
+    border-radius: 0.3em;
+    width: 100%;
+    background-color: #292F33;
+    color: #CCD6DD;
+}
+
+#submit{
+    background-color: #55ACEE;
+    color: black;
+}
+
+#submit:hover{
+    background-color: #292F33;
+}
+
+footer{
+    text-align: center;
+    margin-top: auto;
+    padding: 20px;
+}
+
+.home{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height: 50%;
+    border: 2px solid #55ACEE;
+    margin-right: 20px;
+}
+
+a{
+    margin: auto;
+}
+
+button{
+    text-align: center;
+    background-color: #55ACEE;
+    width: 150px;
+    padding: 15px;
+    border-radius: 1em;
+    border: 1px solid white;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #292F33;
+    border: 1px solid #CCD6DD;
+    color: #CCD6DD;
+}
